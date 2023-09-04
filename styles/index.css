@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30 px;
+    font-size: 30px;
     line-height: 48px;
     letter-spacing: -0.02em;
     color: #0A1B32; 
@@ -13,11 +13,6 @@
 .logo-dot {
     color: #824FF1; 
 }
-
-.main {
-    max-width: fit-content;
-    display: inline-block;
-  }
 
 .main-title {
     max-width: 495px;
@@ -65,18 +60,19 @@
     border: none;
 }
 
-.right-content {
-    max-width: 50%;
+
+section {
+    display: inline-block;
+    max-width: fit-content;
 }
 
 
+/*
 .right-section {
     display: inline-block;
-    width: 658px;
-    height: 700px;
-    flex-shrink: 0;
 }
 
 .left-section {
     display: inline-block;
+    max-width: 495px;
 }
